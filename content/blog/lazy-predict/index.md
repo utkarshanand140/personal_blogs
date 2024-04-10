@@ -6,6 +6,8 @@ authors:
   - admin
 tags:
   - machine learning
+image:
+  caption: 'Image credit: Google Search'
 
 ---
 
