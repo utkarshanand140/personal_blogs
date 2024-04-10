@@ -14,9 +14,12 @@ I often get asked about what software or hardware I use, so this page will serve
 ## Editor + Terminal
 
 - [Visual Studio Code](https://code.visualstudio.com/) is my current editor
-- Chrome is my main browser
+- Brave is my main browser
 - iTerm2 is my terminal
 
-## Desktop Apps
-
-- Better Touch Tool for window management and custom keyboard shortcuts
+## Softwares for Robotics
+- KiCAD for designing PCBs.
+- PlatformIO Extension on VS Code for programming general microcontrollers and STM32CUBE IDE for working with STM based microcontrollers.
+- SEGGER SysView for analyzing when I work with Real-Time-Operating-Systems.
+- MATLAB & Simulink for all mathetmatical related work.
+- ROS2 + Gazebo for software programming work on robots.
