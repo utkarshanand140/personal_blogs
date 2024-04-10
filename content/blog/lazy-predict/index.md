@@ -9,7 +9,9 @@ tags:
 
 ---
 
-The article was initiallay published by ACM Manial [here](https://medium.com/p/06efdc5054b2).
+{{% callout note %}}
+The article was originally published by ACM Manipal on behalf of the author [here](https://medium.com/p/06efdc5054b2).
+{{% /callout %}}
 
 In machine learning, selecting the right model for a given dataset can be a daunting task. With a plethora of algorithms to choose from and various hyperparameters to tune, the process often demands significant time and effort. On top of this, with the recent AI boom, the application of machine learning and deep learning algorithms has increased significantly especially in non-computer science applications. Researchers in diverse domains want to leverage this powerful tool into their work but lack a background in machine learning or high-level programming.
 
