@@ -22,7 +22,7 @@ role: Robotics Engineer
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Chirathe Robotics, ARTPARK, Indian Institute of Sciences
-    url:https://www.chiratherobotics.in/
+    url: https://www.chiratherobotics.in/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include legged robotics, reinforcement learning and embedded systems
