@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Utkarsh
+title: Utkarsh Anand
 
 # Name pronunciation (optional)
 name_pronunciation: 
