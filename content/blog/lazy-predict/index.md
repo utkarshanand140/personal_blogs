@@ -1,7 +1,7 @@
 ---
 title: Leveraging Lazy Predict
 summary: A simple shortcut to Machine Learning model selection
-date: 2023-10-23
+date: 2024-04-05
 authors:
   - admin
 tags:
