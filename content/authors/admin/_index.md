@@ -37,7 +37,7 @@ profiles:
     url: https://www.linkedin.com/in/utkarsh-anand-93260617b/
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: academicons/cv
-    url: https://drive.google.com/file/d/1wG6uiqnCp1y9rYGBoAmBWSLSTTQ2DCUI/view
+    url: https://drive.google.com/file/d/11WZH7dx99UDM8eiuM8cT4PA1c6lAQUeX/view?usp=sharing
     label: Download my resume
 
 # Highlight the author in author lists? (true/false)
