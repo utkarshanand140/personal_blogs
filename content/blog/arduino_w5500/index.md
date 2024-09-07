@@ -56,16 +56,16 @@ Let us start with writing the Arduino Code.
 
 **Step 1: Import the required libraries.**
 
-'''
+```
 #include <Ethernet_Generic.h>
 #include <EthernetClient.h>
 #include <EthernetServer.h>
 #include <SPI.h>
-'''
+```
 
 **Step 2: Create a function which sends a confirmation to the Client when a message has been received.**
 
-'''
+```
 void sendConfirmation(EthernetClient client) {
   // Confirmation message to be sent
   String confirmation = "Message Received\n";
@@ -77,20 +77,20 @@ void sendConfirmation(EthernetClient client) {
   Serial.print("Sent to client: ");
   Serial.print(confirmation);
 }
-'''
+```
 
 **Step 3: Configure the network parameters for the Host (Arduino).**
 
-'''
+```
 // Network settings
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED }; // MAC address which should be unique
 IPAddress ip(192, 168, 1, 177); // Set the Arduino IP (Make sure no other device on the network uses this IP address)
 EthernetServer server(80);      // Set the server port
-'''
+```
 
 **Step 4: Setup the parameters for the Serial Monitor, Start the Ethernet and the Server.**
 
-'''
+```
 void setup() {
   // Start serial communication for debugging
   Serial.begin(9600);
@@ -104,11 +104,11 @@ void setup() {
   Serial.print("Server is at ");
   Serial.println(Ethernet.localIP());
 }
-'''
+```
 
 **Step 5: Write the loop function which continously checks for any incoming character if the client is connected and stores all the charaters in a string.**
 
-'''
+```
 void loop() {
   // Listen for incoming clients
   EthernetClient client = server.available();
@@ -140,11 +140,11 @@ void loop() {
     Serial.println("Client disconnected");
   }
 }
-'''
+```
 
 ### Complete Code:-
 
-'''
+```
 // Author: Utkarsh Anand
 /*
 Description:-
@@ -230,7 +230,7 @@ void sendConfirmation(EthernetClient client) {
   Serial.print(confirmation);
 }
 
-'''
+```
 
 ## Ubuntu Setup
 
