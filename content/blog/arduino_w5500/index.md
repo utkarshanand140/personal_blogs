@@ -1,7 +1,7 @@
 ---
 title: Working with W5500 on Arduino Microcontrollers 
 summary: A simple UDP Loopback test on Arduino Nano using a W5500 module. 
-date: 2024-04-10
+date: 2024-09-07
 authors:
   - admin
 tags:
