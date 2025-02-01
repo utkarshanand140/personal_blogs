@@ -1,7 +1,7 @@
 ---
 title: Reinforcement Learning Series [01] - An introduction to RL
 summary: An Introduction to Reinforcement Learning
-date: 2024-04-10
+date: 2025-01-27
 authors:
   - admin
 tags:
